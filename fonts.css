@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'FalconMasters';
+	src:url('fonts/FalconMasters.eot?-ibh2ms');
+	src:url('fonts/FalconMasters.eot?#iefix-ibh2ms') format('embedded-opentype'),
+		url('fonts/FalconMasters.woff?-ibh2ms') format('woff'),
+		url('fonts/FalconMasters.ttf?-ibh2ms') format('truetype'),
+		url('fonts/FalconMasters.svg?-ibh2ms#FalconMasters') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'FalconMasters';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+	content: "\e604";
+}
+.icon-house:before {
+	content: "\e622";
+}
+.icon-rocket:before {
+	content: "\e650";
+}
+.icon-suitcase:before {
+	content: "\e652";
+}
+.icon-earth:before {
+	content: "\e654";
+}
+.icon-cross:before {
+	content: "\e678";
+}
+.icon-list2:before {
+	content: "\e696";
+}
